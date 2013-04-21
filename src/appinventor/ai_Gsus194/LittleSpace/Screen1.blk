@@ -1,0 +1,81 @@
+<!DOCTYPE YACodeBlocks SYSTEM "support/save_format.dtd">
+<YACodeBlocks ya-version="71" lang-version="17">
+<Pages><Page page-name=" " page-color="237 245 211" page-width="1366" page-height="1600" page-drawer="My Definitions" >
+<PageBlocks>
+<Block id="1062" genus-name="Player-Stop" >
+<Location><X>66</X><Y>238</Y></Location>
+<Label>Sonido.Stop</Label>
+<BeforeBlockId>2243</BeforeBlockId>
+<AfterBlockId>887</AfterBlockId>
+</Block>
+<Block id="887" genus-name="open-another-screen" >
+<Location><X>66</X><Y>266</Y></Location>
+<Label>open another screen</Label>
+<BeforeBlockId>1062</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="screenName" position-type="single" con-block-id="889" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="889" genus-name="text" has-focus="yes" >
+<Location><X>302</X><Y>269</Y></Location>
+<Label>MainMenu</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="887" ></BlockConnector></Plug>
+</Block>
+<Block id="2243" genus-name="ImageSprite-Touched" >
+<Location><X>38</X><Y>174</Y></Location>
+<Label>Start.Touched</Label>
+<Sockets num-sockets="3" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="x" position-type="single" con-block-id="2247" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="y" position-type="single" con-block-id="2249" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1062" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2249" genus-name="argument" >
+<Location><X>194</X><Y>205</Y></Location>
+<Label>y</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2243" ></BlockConnector></Plug>
+</Block>
+<Block id="2247" genus-name="argument" >
+<Location><X>194</X><Y>177</Y></Location>
+<Label>x</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2243" ></BlockConnector></Plug>
+</Block>
+<Block id="1060" genus-name="true" >
+<Location><X>223</X><Y>86</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1058" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>Sonido.IsLooping</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1058" genus-name="componentSetter" >
+<Location><X>65</X><Y>83</Y></Location>
+<Label>Sonido.IsLooping</Label>
+<BeforeBlockId>1056</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1060" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1056" genus-name="Player-Start" >
+<Location><X>65</X><Y>55</Y></Location>
+<Label>Sonido.Start</Label>
+<BeforeBlockId>936</BeforeBlockId>
+<AfterBlockId>1058</AfterBlockId>
+</Block>
+<Block id="936" genus-name="Screen-Initialize" >
+<Location><X>37</X><Y>22</Y></Location>
+<Label>Screen1.Initialize</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1056" ></BlockConnector>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+
+</Pages><YoungAndroidMaps><YoungAndroidUuidMap>
+<YoungAndroidUuidEntry uuid="0" component-id="Screen1" component-genus="Form" component-version="0" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1744575163" component-id="Title" component-genus="ImageSprite" component-version="6" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-869370715" component-id="Start" component-genus="ImageSprite" component-version="6" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-470039162" component-id="Sonido" component-genus="Player" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1994889117" component-id="Fondo" component-genus="Canvas" component-version="7" ></YoungAndroidUuidEntry>
+</YoungAndroidUuidMap>
+</YoungAndroidMaps>
+</YACodeBlocks>

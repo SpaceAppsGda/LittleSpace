@@ -1,0 +1,4 @@
+#|
+$JSON
+{"YaVersion":"71","Source":"Form","Properties":{"$Name":"Neptuno","$Type":"Form","$Version":"10","Uuid":"0","ScreenOrientation":"landscape","Scrollable":"False","Title":"Answer this questions","$Components":[{"$Name":"Canvas1","$Type":"Canvas","$Version":"7","Uuid":"-1165547459","BackgroundImage":"Trivia1.png","Height":"400","$Components":[{"$Name":"spriteflecha","$Type":"ImageSprite","$Version":"6","Uuid":"119597338","Picture":"flecha.png","Visible":"False","X":"293","Y":"96"},{"$Name":"ImageSprite1","$Type":"ImageSprite","$Version":"6","Uuid":"2124545488","X":"36","Y":"120","Width":"30","Height":"25"}]},{"$Name":"Player1","$Type":"Player","$Version":"4","Uuid":"573325912","IsLooping":"True","Source":"musica03.mp3","Volume":"100"}]}}
+|#

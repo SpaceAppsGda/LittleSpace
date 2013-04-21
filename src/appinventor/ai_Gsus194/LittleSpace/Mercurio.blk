@@ -1,0 +1,45 @@
+<!DOCTYPE YACodeBlocks SYSTEM "support/save_format.dtd">
+<YACodeBlocks ya-version="71" lang-version="17">
+<Pages><Page page-name=" " page-color="237 245 211" page-width="1366" page-height="1600" page-drawer="My Definitions" >
+<PageBlocks>
+<Block id="485" genus-name="text" >
+<Location><X>298</X><Y>174</Y></Location>
+<Label>MainMenu</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="483" ></BlockConnector></Plug>
+</Block>
+<Block id="483" genus-name="open-another-screen" >
+<Location><X>62</X><Y>171</Y></Location>
+<Label>open another screen</Label>
+<BeforeBlockId>479</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="screenName" position-type="single" con-block-id="485" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="479" genus-name="VideoPlayer-Completed" >
+<Location><X>34</X><Y>138</Y></Location>
+<Label>VideoPlayer1.Completed</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="483" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="477" genus-name="VideoPlayer-Start" >
+<Location><X>60</X><Y>66</Y></Location>
+<Label>VideoPlayer1.Start</Label>
+<BeforeBlockId>473</BeforeBlockId>
+</Block>
+<Block id="473" genus-name="Screen-Initialize" >
+<Location><X>32</X><Y>33</Y></Location>
+<Label>Mercurio.Initialize</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="477" ></BlockConnector>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+
+</Pages><YoungAndroidMaps><YoungAndroidUuidMap>
+<YoungAndroidUuidEntry uuid="1521597016" component-id="VideoPlayer1" component-genus="VideoPlayer" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="0" component-id="Mercurio" component-genus="Form" component-version="0" ></YoungAndroidUuidEntry>
+</YoungAndroidUuidMap>
+</YoungAndroidMaps>
+</YACodeBlocks>

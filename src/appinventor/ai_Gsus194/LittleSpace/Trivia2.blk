@@ -1,0 +1,81 @@
+<!DOCTYPE YACodeBlocks SYSTEM "support/save_format.dtd">
+<YACodeBlocks ya-version="71" lang-version="17">
+<Pages><Page page-name=" " page-color="237 245 211" page-width="1366" page-height="1600" page-drawer="My Definitions" >
+<PageBlocks>
+<Block id="897" genus-name="ImageSprite-Touched" >
+<Location><X>45</X><Y>160</Y></Location>
+<Label>ImageSprite2.Touched</Label>
+<Sockets num-sockets="3" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="x" position-type="single" con-block-id="901" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="y" position-type="single" con-block-id="903" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="898" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="898" genus-name="open-another-screen" >
+<Location><X>73</X><Y>224</Y></Location>
+<Label>open another screen</Label>
+<BeforeBlockId>897</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="screenName" position-type="single" con-block-id="896" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="896" genus-name="text" >
+<Location><X>309</X><Y>227</Y></Location>
+<Label>Trivia3</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="898" ></BlockConnector></Plug>
+</Block>
+<Block id="903" genus-name="argument" >
+<Location><X>249</X><Y>191</Y></Location>
+<Label>y1</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="897" ></BlockConnector></Plug>
+</Block>
+<Block id="901" genus-name="argument" >
+<Location><X>249</X><Y>163</Y></Location>
+<Label>x1</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="897" ></BlockConnector></Plug>
+</Block>
+<Block id="881" genus-name="ImageSprite-Touched" >
+<Location><X>37</X><Y>23</Y></Location>
+<Label>ImageSprite1.Touched</Label>
+<Sockets num-sockets="3" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="x" position-type="single" con-block-id="885" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="y" position-type="single" con-block-id="887" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="893" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>ImageSprite2.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="893" genus-name="componentSetter" >
+<Location><X>65</X><Y>87</Y></Location>
+<Label>ImageSprite2.Visible</Label>
+<BeforeBlockId>881</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="895" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="895" genus-name="true" >
+<Location><X>243</X><Y>90</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="893" ></BlockConnector></Plug>
+</Block>
+<Block id="887" genus-name="argument" >
+<Location><X>241</X><Y>54</Y></Location>
+<Label>y</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="881" ></BlockConnector></Plug>
+</Block>
+<Block id="885" genus-name="argument" >
+<Location><X>241</X><Y>26</Y></Location>
+<Label>x</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="881" ></BlockConnector></Plug>
+</Block>
+</PageBlocks>
+</Page>
+
+</Pages><YoungAndroidMaps><YoungAndroidUuidMap>
+<YoungAndroidUuidEntry uuid="0" component-id="Trivia2" component-genus="Form" component-version="0" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1187415089" component-id="Canvas1" component-genus="Canvas" component-version="7" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1177473350" component-id="ImageSprite2" component-genus="ImageSprite" component-version="6" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1116680022" component-id="Player1" component-genus="Player" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1824865986" component-id="ImageSprite1" component-genus="ImageSprite" component-version="6" ></YoungAndroidUuidEntry>
+</YoungAndroidUuidMap>
+</YoungAndroidMaps>
+</YACodeBlocks>

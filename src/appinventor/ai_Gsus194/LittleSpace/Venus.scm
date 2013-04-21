@@ -1,0 +1,4 @@
+#|
+$JSON
+{"YaVersion":"71","Source":"Form","Properties":{"$Name":"Venus","$Type":"Form","$Version":"10","Uuid":"0","ScreenOrientation":"landscape","Scrollable":"False","Title":"Hit the alien (10 hits to win!!)","$Components":[{"$Name":"Canvas1","$Type":"Canvas","$Version":"7","Uuid":"-1379106003","BackgroundImage":"FondoVenus.png","Width":"-2","Height":"400","$Components":[{"$Name":"ImageSprite1","$Type":"ImageSprite","$Version":"6","Uuid":"-1116649349","Interval":"500","Picture":"AlienNB.png","X":"409","Y":"192","Z":"2","Width":"60","Height":"60"},{"$Name":"ImageSprite2","$Type":"ImageSprite","$Version":"6","Uuid":"-601614444","Picture":"winning.png","X":"112","Y":"76"}]},{"$Name":"AlienTimer","$Type":"Clock","$Version":"1","Uuid":"-1651953351","TimerEnabled":"False","TimerInterval":"200"},{"$Name":"Player1","$Type":"Player","$Version":"4","Uuid":"571923818","IsLooping":"True","Source":"musica02.mp3","Volume":"100"}]}}
+|#

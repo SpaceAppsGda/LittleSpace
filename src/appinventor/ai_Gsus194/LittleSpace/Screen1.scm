@@ -1,0 +1,4 @@
+#|
+$JSON
+{"YaVersion":"71","Source":"Form","Properties":{"$Name":"Screen1","$Type":"Form","$Version":"10","Uuid":"0","AlignHorizontal":"3","Icon":"logoooo.png","ScreenOrientation":"landscape","$Components":[{"$Name":"Fondo","$Type":"Canvas","$Version":"7","Uuid":"1994889117","BackgroundImage":"fondoinicio.png","Width":"-2","Height":"400","$Components":[{"$Name":"Title","$Type":"ImageSprite","$Version":"6","Uuid":"1744575163","Picture":"littlespace.png","X":"25","Y":"47"},{"$Name":"Start","$Type":"ImageSprite","$Version":"6","Uuid":"-869370715","Picture":"start2.png","X":"283","Y":"124"}]},{"$Name":"Sonido","$Type":"Player","$Version":"4","Uuid":"-470039162","IsLooping":"True","Source":"star.mp3","Volume":"100"}]}}
+|#

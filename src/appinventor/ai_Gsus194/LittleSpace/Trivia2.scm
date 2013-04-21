@@ -1,0 +1,4 @@
+#|
+$JSON
+{"YaVersion":"71","Source":"Form","Properties":{"$Name":"Trivia2","$Type":"Form","$Version":"10","Uuid":"0","ScreenOrientation":"landscape","$Components":[{"$Name":"Canvas1","$Type":"Canvas","$Version":"7","Uuid":"-1187415089","BackgroundImage":"Trivia2.png","Width":"-2","Height":"400","$Components":[{"$Name":"ImageSprite1","$Type":"ImageSprite","$Version":"6","Uuid":"-1824865986","X":"43","Y":"109","Width":"165","Height":"20"},{"$Name":"ImageSprite2","$Type":"ImageSprite","$Version":"6","Uuid":"-1177473350","Picture":"flecha.png","Visible":"False","X":"269","Y":"68"}]},{"$Name":"Player1","$Type":"Player","$Version":"4","Uuid":"-1116680022","IsLooping":"True","Source":"musica03.mp3","Volume":"100"}]}}
+|#

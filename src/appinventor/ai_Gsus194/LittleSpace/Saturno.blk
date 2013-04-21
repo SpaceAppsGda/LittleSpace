@@ -1,0 +1,416 @@
+<!DOCTYPE YACodeBlocks SYSTEM "support/save_format.dtd">
+<YACodeBlocks ya-version="71" lang-version="17">
+<Pages><Page page-name=" " page-color="237 245 211" page-width="1366" page-height="1600" page-drawer="My Definitions" >
+<PageBlocks>
+<Block id="1214" genus-name="Player-Stop" has-focus="yes" >
+<Location><X>526</X><Y>636</Y></Location>
+<Label>Player1.Stop</Label>
+<BeforeBlockId>1285</BeforeBlockId>
+<AfterBlockId>1283</AfterBlockId>
+</Block>
+<Block id="1257" genus-name="Screen-Initialize" >
+<Location><X>593</X><Y>370</Y></Location>
+<Label>Saturno.Initialize</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1212" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1212" genus-name="Player-Start" >
+<Location><X>621</X><Y>403</Y></Location>
+<Label>Player1.Start</Label>
+<BeforeBlockId>1257</BeforeBlockId>
+<AfterBlockId>1261</AfterBlockId>
+</Block>
+<BlockStub><StubParentName>ImageSprite9.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1261" genus-name="componentSetter" >
+<Location><X>621</X><Y>431</Y></Location>
+<Label>ImageSprite9.Visible</Label>
+<BeforeBlockId>1212</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1263" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1263" genus-name="false" >
+<Location><X>799</X><Y>434</Y></Location>
+<Label>false</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1261" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>ImageSprite9.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1273" genus-name="componentSetter" >
+<Location><X>116</X><Y>564</Y></Location>
+<Label>ImageSprite9.Visible</Label>
+<BeforeBlockId>1231</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1275" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1275" genus-name="true" >
+<Location><X>294</X><Y>567</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1273" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>ImageSprite9.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1279" genus-name="componentSetter" >
+<Location><X>672</X><Y>227</Y></Location>
+<Label>ImageSprite9.Visible</Label>
+<BeforeBlockId>1245</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1281" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1281" genus-name="true" >
+<Location><X>850</X><Y>230</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1279" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>ImageSprite9.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1265" genus-name="componentSetter" >
+<Location><X>111</X><Y>220</Y></Location>
+<Label>ImageSprite9.Visible</Label>
+<BeforeBlockId>1217</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1269" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1269" genus-name="true" >
+<Location><X>289</X><Y>223</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1265" ></BlockConnector></Plug>
+</Block>
+<Block id="1047" genus-name="def" >
+<Location><X>628</X><Y>516</Y></Location>
+<Label>counter</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="as" position-type="single" con-block-id="1055" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1055" genus-name="number" >
+<Location><X>748</X><Y>516</Y></Location>
+<Label>0</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1047" ></BlockConnector></Plug>
+</Block>
+<Block id="1011" genus-name="ImageSprite-Touched" >
+<Location><X>36</X><Y>372</Y></Location>
+<Label>ImageSprite7.Touched</Label>
+<Sockets num-sockets="3" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="x" position-type="single" con-block-id="1015" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="y" position-type="single" con-block-id="1017" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1039" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>ImageSprite7.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1039" genus-name="componentSetter" >
+<Location><X>64</X><Y>436</Y></Location>
+<Label>ImageSprite7.Visible</Label>
+<BeforeBlockId>1011</BeforeBlockId>
+<AfterBlockId>1067</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1041" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>counter</StubParentName><StubParentGenus>def</StubParentGenus><Block id="1067" genus-name="setterGlobal" >
+<Location><X>64</X><Y>474</Y></Location>
+<Label>counter</Label>
+<BeforeBlockId>1039</BeforeBlockId>
+<AfterBlockId>1231</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1209" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1231" genus-name="if" >
+<Location><X>64</X><Y>520</Y></Location>
+<Label>if</Label>
+<BeforeBlockId>1067</BeforeBlockId>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="test" position-type="single" con-block-id="1233" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="then-do" is-indented="yes" position-type="single" con-block-id="1273" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1233" genus-name="yail-equal" >
+<Location><X>138</X><Y>523</Y></Location>
+<Label>=</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1231" ></BlockConnector></Plug>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="1235" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="1237" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1237" genus-name="number" >
+<Location><X>301</X><Y>530</Y></Location>
+<Label>3</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1233" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>counter</StubParentName><StubParentGenus>def</StubParentGenus><Block id="1235" genus-name="getterGlobal" >
+<Location><X>148</X><Y>530</Y></Location>
+<Label>counter</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1233" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<Block id="1209" genus-name="number-plus" >
+<Location><X>202</X><Y>477</Y></Location>
+<Label>+</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1067" ></BlockConnector></Plug>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="1211" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="1213" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1213" genus-name="number" >
+<Location><X>365</X><Y>484</Y></Location>
+<Label>1</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1209" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>counter</StubParentName><StubParentGenus>def</StubParentGenus><Block id="1211" genus-name="getterGlobal" >
+<Location><X>212</X><Y>484</Y></Location>
+<Label>counter</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1209" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<Block id="1041" genus-name="false" >
+<Location><X>242</X><Y>439</Y></Location>
+<Label>false</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1039" ></BlockConnector></Plug>
+</Block>
+<Block id="1017" genus-name="argument" >
+<Location><X>240</X><Y>403</Y></Location>
+<Label>y1</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1011" ></BlockConnector></Plug>
+</Block>
+<Block id="1015" genus-name="argument" >
+<Location><X>240</X><Y>375</Y></Location>
+<Label>x1</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1011" ></BlockConnector></Plug>
+</Block>
+<Block id="1023" genus-name="ImageSprite-Touched" >
+<Location><X>592</X><Y>35</Y></Location>
+<Label>ImageSprite8.Touched</Label>
+<Sockets num-sockets="3" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="x" position-type="single" con-block-id="1027" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="y" position-type="single" con-block-id="1029" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1043" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>ImageSprite8.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1043" genus-name="componentSetter" >
+<Location><X>620</X><Y>99</Y></Location>
+<Label>ImageSprite8.Visible</Label>
+<BeforeBlockId>1023</BeforeBlockId>
+<AfterBlockId>1073</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1045" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>counter</StubParentName><StubParentGenus>def</StubParentGenus><Block id="1073" genus-name="setterGlobal" >
+<Location><X>620</X><Y>137</Y></Location>
+<Label>counter</Label>
+<BeforeBlockId>1043</BeforeBlockId>
+<AfterBlockId>1245</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1201" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1245" genus-name="if" >
+<Location><X>620</X><Y>183</Y></Location>
+<Label>if</Label>
+<BeforeBlockId>1073</BeforeBlockId>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="test" position-type="single" con-block-id="1247" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="then-do" is-indented="yes" position-type="single" con-block-id="1279" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1247" genus-name="yail-equal" >
+<Location><X>694</X><Y>186</Y></Location>
+<Label>=</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1245" ></BlockConnector></Plug>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="1249" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="1251" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1251" genus-name="number" >
+<Location><X>857</X><Y>193</Y></Location>
+<Label>3</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1247" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>counter</StubParentName><StubParentGenus>def</StubParentGenus><Block id="1249" genus-name="getterGlobal" >
+<Location><X>704</X><Y>193</Y></Location>
+<Label>counter</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1247" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<Block id="1201" genus-name="number-plus" >
+<Location><X>758</X><Y>140</Y></Location>
+<Label>+</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1073" ></BlockConnector></Plug>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="1203" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="1205" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1205" genus-name="number" >
+<Location><X>921</X><Y>147</Y></Location>
+<Label>1</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1201" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>counter</StubParentName><StubParentGenus>def</StubParentGenus><Block id="1203" genus-name="getterGlobal" >
+<Location><X>768</X><Y>147</Y></Location>
+<Label>counter</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1201" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<Block id="1045" genus-name="false" >
+<Location><X>798</X><Y>102</Y></Location>
+<Label>false</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1043" ></BlockConnector></Plug>
+</Block>
+<Block id="1029" genus-name="argument" >
+<Location><X>796</X><Y>66</Y></Location>
+<Label>y2</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1023" ></BlockConnector></Plug>
+</Block>
+<Block id="1027" genus-name="argument" >
+<Location><X>796</X><Y>38</Y></Location>
+<Label>x2</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1023" ></BlockConnector></Plug>
+</Block>
+<Block id="1227" genus-name="number" >
+<Location><X>296</X><Y>186</Y></Location>
+<Label>3</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1223" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>counter</StubParentName><StubParentGenus>def</StubParentGenus><Block id="1221" genus-name="getterGlobal" >
+<Location><X>143</X><Y>186</Y></Location>
+<Label>counter</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1223" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<Block id="1223" genus-name="yail-equal" >
+<Location><X>133</X><Y>179</Y></Location>
+<Label>=</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1217" ></BlockConnector></Plug>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="1221" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="1227" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1217" genus-name="if" >
+<Location><X>59</X><Y>176</Y></Location>
+<Label>if</Label>
+<BeforeBlockId>1061</BeforeBlockId>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="test" position-type="single" con-block-id="1223" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="then-do" is-indented="yes" position-type="single" con-block-id="1265" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="999" genus-name="ImageSprite-Touched" >
+<Location><X>31</X><Y>28</Y></Location>
+<Label>ImageSprite6.Touched</Label>
+<Sockets num-sockets="3" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="x" position-type="single" con-block-id="1003" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="y" position-type="single" con-block-id="1005" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1035" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>ImageSprite6.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1035" genus-name="componentSetter" >
+<Location><X>59</X><Y>92</Y></Location>
+<Label>ImageSprite6.Visible</Label>
+<BeforeBlockId>999</BeforeBlockId>
+<AfterBlockId>1061</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1037" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>counter</StubParentName><StubParentGenus>def</StubParentGenus><Block id="1061" genus-name="setterGlobal" >
+<Location><X>59</X><Y>130</Y></Location>
+<Label>counter</Label>
+<BeforeBlockId>1035</BeforeBlockId>
+<AfterBlockId>1217</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1195" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1195" genus-name="number-plus" >
+<Location><X>197</X><Y>133</Y></Location>
+<Label>+</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1061" ></BlockConnector></Plug>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="1197" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="1063" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1063" genus-name="number" >
+<Location><X>360</X><Y>140</Y></Location>
+<Label>1</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1195" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>counter</StubParentName><StubParentGenus>def</StubParentGenus><Block id="1197" genus-name="getterGlobal" >
+<Location><X>207</X><Y>140</Y></Location>
+<Label>counter</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1195" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<Block id="1037" genus-name="false" >
+<Location><X>237</X><Y>95</Y></Location>
+<Label>false</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1035" ></BlockConnector></Plug>
+</Block>
+<Block id="1005" genus-name="argument" >
+<Location><X>235</X><Y>59</Y></Location>
+<Label>y</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="999" ></BlockConnector></Plug>
+</Block>
+<Block id="1003" genus-name="argument" >
+<Location><X>235</X><Y>31</Y></Location>
+<Label>x</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="999" ></BlockConnector></Plug>
+</Block>
+<Block id="1289" genus-name="argument" >
+<Location><X>702</X><Y>575</Y></Location>
+<Label>x3</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1285" ></BlockConnector></Plug>
+</Block>
+<Block id="1291" genus-name="argument" >
+<Location><X>702</X><Y>603</Y></Location>
+<Label>y3</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1285" ></BlockConnector></Plug>
+</Block>
+<Block id="1299" genus-name="text" >
+<Location><X>762</X><Y>667</Y></Location>
+<Label>MainMenu</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1283" ></BlockConnector></Plug>
+</Block>
+<Block id="1283" genus-name="open-another-screen" >
+<Location><X>526</X><Y>664</Y></Location>
+<Label>open another screen</Label>
+<BeforeBlockId>1214</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="screenName" position-type="single" con-block-id="1299" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1285" genus-name="ImageSprite-Touched" >
+<Location><X>498</X><Y>572</Y></Location>
+<Label>ImageSprite9.Touched</Label>
+<Sockets num-sockets="3" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="x" position-type="single" con-block-id="1289" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="y" position-type="single" con-block-id="1291" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1214" ></BlockConnector>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+
+</Pages><YoungAndroidMaps><YoungAndroidUuidMap>
+<YoungAndroidUuidEntry uuid="173611570" component-id="ImageSprite6" component-genus="ImageSprite" component-version="6" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-492717289" component-id="ImageSprite7" component-genus="ImageSprite" component-version="6" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-33439133" component-id="Canvas1" component-genus="Canvas" component-version="7" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1081190210" component-id="Player1" component-genus="Player" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="0" component-id="Saturno" component-genus="Form" component-version="0" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="886858170" component-id="ImageSprite9" component-genus="ImageSprite" component-version="6" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="2140388979" component-id="ImageSprite8" component-genus="ImageSprite" component-version="6" ></YoungAndroidUuidEntry>
+</YoungAndroidUuidMap>
+</YoungAndroidMaps>
+</YACodeBlocks>

@@ -1,0 +1,93 @@
+<!DOCTYPE YACodeBlocks SYSTEM "support/save_format.dtd">
+<YACodeBlocks ya-version="71" lang-version="17">
+<Pages><Page page-name=" " page-color="237 245 211" page-width="1366" page-height="1600" page-drawer="My Definitions" >
+<PageBlocks>
+<Block id="955" genus-name="Player-Start" >
+<Location><X>78</X><Y>230</Y></Location>
+<Label>Player1.Start</Label>
+<BeforeBlockId>957</BeforeBlockId>
+</Block>
+<Block id="957" genus-name="Screen-Initialize" >
+<Location><X>50</X><Y>197</Y></Location>
+<Label>Neptuno.Initialize</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="955" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1587" genus-name="ImageSprite-Touched" >
+<Location><X>41</X><Y>38</Y></Location>
+<Label>ImageSprite1.Touched</Label>
+<Sockets num-sockets="3" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="x" position-type="single" con-block-id="1591" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="y" position-type="single" con-block-id="1593" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1603" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>spriteflecha.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1603" genus-name="componentSetter" >
+<Location><X>69</X><Y>102</Y></Location>
+<Label>spriteflecha.Visible</Label>
+<BeforeBlockId>1587</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1607" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1607" genus-name="true" >
+<Location><X>239</X><Y>105</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1603" ></BlockConnector></Plug>
+</Block>
+<Block id="1593" genus-name="argument" >
+<Location><X>245</X><Y>69</Y></Location>
+<Label>y</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1587" ></BlockConnector></Plug>
+</Block>
+<Block id="1591" genus-name="argument" >
+<Location><X>245</X><Y>41</Y></Location>
+<Label>x</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1587" ></BlockConnector></Plug>
+</Block>
+<Block id="1651" genus-name="argument" >
+<Location><X>624</X><Y>82</Y></Location>
+<Label>y6</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1645" ></BlockConnector></Plug>
+</Block>
+<Block id="1649" genus-name="argument" >
+<Location><X>624</X><Y>54</Y></Location>
+<Label>x6</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1645" ></BlockConnector></Plug>
+</Block>
+<Block id="1645" genus-name="ImageSprite-Touched" >
+<Location><X>428</X><Y>51</Y></Location>
+<Label>spriteflecha.Touched</Label>
+<Sockets num-sockets="3" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="x" position-type="single" con-block-id="1649" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="y" position-type="single" con-block-id="1651" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1483" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1483" genus-name="open-another-screen" >
+<Location><X>456</X><Y>115</Y></Location>
+<Label>open another screen</Label>
+<BeforeBlockId>1645</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="screenName" position-type="single" con-block-id="1659" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1659" genus-name="text" >
+<Location><X>692</X><Y>118</Y></Location>
+<Label>Trivia2</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1483" ></BlockConnector></Plug>
+</Block>
+</PageBlocks>
+</Page>
+
+</Pages><YoungAndroidMaps><YoungAndroidUuidMap>
+<YoungAndroidUuidEntry uuid="0" component-id="Neptuno" component-genus="Form" component-version="0" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="119597338" component-id="spriteflecha" component-genus="ImageSprite" component-version="6" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="573325912" component-id="Player1" component-genus="Player" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="2124545488" component-id="ImageSprite1" component-genus="ImageSprite" component-version="6" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1165547459" component-id="Canvas1" component-genus="Canvas" component-version="7" ></YoungAndroidUuidEntry>
+</YoungAndroidUuidMap>
+</YoungAndroidMaps>
+</YACodeBlocks>
